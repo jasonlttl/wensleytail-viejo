@@ -2,6 +2,29 @@
 
 A cheese shoppe for dogs that's always out of stock.
 
+# General Tips
+
+## Cleaning Existing Site and Reinstall
+
+```
+rm -rf Users
+rm -rf sites/default/files/config*
+rm -rf sites/default/settings.php
+drush qd --use-existing --uri=http://localhost:8383 --profile=shop_base  --yes
+
+```
+
+## Adding Configuration to Install Profile
+
+To put configuration in the install profile
+
+```
+drush config-export
+cp sites/default/files/config_[guid]/sync/comme* profiles/custom/shop_base/config/install/
+find profiles/custom/shop_base/config/install/ -type f -exec sed -i '' -e '/^uuid: /d' {} \;
+
+```
+
 # Commerce 2.x project template
 
 [![Build Status](https://travis-ci.org/drupalcommerce/project-base.svg?branch=8.x)](https://travis-ci.org/drupalcommerce/project-base)
