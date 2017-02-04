@@ -2,16 +2,23 @@ language: php
 php:
   - 7.0
 
+mysql:
+  database: drupal
+  username: root
+  encoding: utf8
+
 sudo: false
 
 env:
   global:
-    - SIMPLETEST_DB=sqlite://tmp/site.sqlite
-    - SIMPLETEST_BASE_URL="http://127.0.0.1:8080"
+    - mysql -e 'create database drupal;'
+    # Not sure why we need these
+    #- SIMPLETEST_DB=sqlite://tmp/site.sqlite
+    #- SIMPLETEST_BASE_URL="http://127.0.0.1:8080"
   matrix:
     - RELEASE=stable COMPOSER_CHANNEL=stable
-    - RELEASE=dev COMPOSER_CHANNEL=stable
-    - RELEASE=stable COMPOSER_CHANNEL=snapshot
+    #- RELEASE=dev COMPOSER_CHANNEL=stable
+    #- RELEASE=stable COMPOSER_CHANNEL=snapshot
 
 before_install:
   - echo 'sendmail_path = /bin/true' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
@@ -29,9 +36,10 @@ script:
   # Not sure why we even need these steps
   #- ./../bin/drupal --version
   #- ./../bin/drupal init
-  - ./../bin/drupal site:install --db-type=sqlite --db-file=sites/default/files/.ht.sqlite --no-interaction shop_base
+  #- ./../bin/drupal site:install --db-type=sqlite --db-file=sites/default/files/.ht.sqlite --no-interaction shop_base
+  - ./../bin/drupal site:install --db-type=mysql --db-user=root --db-host=127.0.0.1 --db-name=drupal
   - ./../bin/drupal server 127.0.0.1:8080 &
-  - sleep 3
+  #- sleep 3
   # Skip core/tests/Drupal/Tests/ComposerIntegrationTest.php because web/ has no composer.json
   # Ignore PageCache group temporarily, @see https://www.drupal.org/node/2770673
   - ./../bin/phpunit -c core --testsuite unit --exclude-group Composer,DependencyInjection,PageCache
