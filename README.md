@@ -1,3 +1,7 @@
+# Wensleytail
+
+A cheese shoppe for dogs that's always out of stock.
+
 # Commerce 2.x project template
 
 [![Build Status](https://travis-ci.org/drupalcommerce/project-base.svg?branch=8.x)](https://travis-ci.org/drupalcommerce/project-base)
