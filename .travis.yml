@@ -37,7 +37,7 @@ script:
   #- ./../bin/drupal --version
   #- ./../bin/drupal init
   #- ./../bin/drupal site:install --db-type=sqlite --db-file=sites/default/files/.ht.sqlite --no-interaction shop_base
-  - ./../bin/drupal site:install --db-type=mysql --db-user=root --db-host=127.0.0.1 --db-name=drupal shop_base
+  - ./../bin/drupal site:install --db-type=mysql --db-user=root --db-host=127.0.0.1 --db-name=drupal --no-interaction shop_base
   - ./../bin/drupal server 127.0.0.1:8080 &
   #- sleep 3
   # Skip core/tests/Drupal/Tests/ComposerIntegrationTest.php because web/ has no composer.json
