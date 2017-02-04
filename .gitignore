@@ -10,9 +10,9 @@
 # Ignore Drupal's site specific files
 /web/sites/*/files/
 /web/sites/*/settings.php
-/web/sites/*/web.sqlite
-/web/sites/*/web.sqlite-shm
-/web/sites/*/web.sqlite-wal
+
+# Ignore non-docroot site specific files
+/sites/*/web.sqlite*
 
 # Ignore drush rc / qd files
 /web/drush
