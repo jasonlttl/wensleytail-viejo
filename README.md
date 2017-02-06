@@ -6,6 +6,8 @@ A cheese shoppe for dogs that's always out of stock.
 
 ## Cleaning Existing Site and Reinstall
 
+
+
 ```
 rm -rf Users
 rm -rf sites/default/files/config*

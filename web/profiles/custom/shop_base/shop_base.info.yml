@@ -16,6 +16,7 @@ dependencies:
   - comment
   - contextual
   - contact
+  - features
   - menu_link_content
   - datetime
   - block_content

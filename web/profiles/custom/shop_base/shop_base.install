@@ -7,6 +7,7 @@
 
 use Drupal\user\Entity\User;
 use Drupal\user\RoleInterface;
+use Drupal\commerce_store\Entity\Store;
 
 /**
  * Implements hook_install().
@@ -66,4 +67,34 @@ function shop_base_install() {
 
   // Enable the admin theme.
   \Drupal::configFactory()->getEditable('node.settings')->set('use_admin_theme', TRUE)->save(TRUE);
+
+  shop_base_Create_store();
+}
+
+
+function shop_base_create_store() {
+
+  $currency_importer = \Drupal::service('commerce_price.currency_importer');
+  $currency_importer->import('USD');
+  $store = Store::create([
+    'type' => 'online',
+    'uid' => 1,
+    'name' => 'Wensleytail\'s Cheese Shoppe',
+    'mail' => 'changethis@gmail.com',
+    'address' => [
+      'country_code' => 'US',
+      'address_line1' => '105 Change This',
+      'locality' => 'Columbus',
+      'administrative_area' => 'OH',
+      'postal_code' => '43201',
+    ],
+    'default_currency' => 'USD',
+    'billing_countries' => [
+      'USA',
+    ],
+  ]);
+  $store->save();
+
+  $store_storage = \Drupal::service('entity_type.manager')->getStorage('commerce_store');
+  $store_storage->markAsDefault($store);
 }
