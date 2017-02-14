@@ -16,6 +16,7 @@ dependencies:
   - commerce_promotion
   - commerce_store
   - commerce_variation_add_to_cart
+  - default_content
   - entity
   - field
   - inline_entity_form
