@@ -1,0 +1,14 @@
+{
+  "name": "drupal/wt",
+  "type": "drupal-module",
+  "description": "Primary setup for Wensleytail Cheese Shoppe",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/wt",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/wt",
+    "source": "http://cgit.drupalcode.org/wt"
+  },
+  "require": { }
+}

@@ -1,0 +1,24 @@
+name: 'Wensleytail Cheese Shoppe'
+type: module
+description: 'Primary setup for Wensleytail Cheese Shoppe'
+core: 8.x
+package: wt
+dependencies:
+  - address
+  - commerce
+  - commerce_cart
+  - commerce_checkout
+  - commerce_log
+  - commerce_order
+  - commerce_payment
+  - commerce_price
+  - commerce_product
+  - commerce_promotion
+  - commerce_store
+  - entity
+  - field
+  - inline_entity_form
+  - path
+  - profile
+  - state_machine
+  - text

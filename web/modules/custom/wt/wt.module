@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains wt.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function wt_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the wt module.
+    case 'help.page.wt':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Primary setup for Wensleytail Cheese Shoppe') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Wensleytail Order'
+id: wt_order_type
+workflow: order_default
+traits: {  }
+refresh_mode: null
+refresh_frequency: null
+sendReceipt: null
+receiptBcc: null

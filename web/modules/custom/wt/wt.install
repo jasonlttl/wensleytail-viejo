@@ -1,0 +1,66 @@
+<?php
+
+use Drupal\commerce_store\Entity\Store;
+use Drupal\commerce_order\Entity\OrderType;
+use Drupal\commerce_product\Entity\ProductAttributeValue;
+
+/**
+ * Implements hook_install().
+ *
+ * @see system_install()
+ */
+function wt_install() {
+  wt_create_store();
+  wt_create_size_attributes();
+}
+
+/**
+ * Create a store.
+ */
+function wt_create_store() {
+
+  $currency_importer = \Drupal::service('commerce_price.currency_importer');
+  $currency_importer->import('USD');
+  $store = Store::create([
+    'type' => 'online',
+    'uid' => 1,
+    'name' => 'Wensleytail\'s Cheese Shoppe',
+    'mail' => 'changethis@gmail.com',
+    'address' => [
+      'country_code' => 'US',
+      'address_line1' => '105 Change This',
+      'locality' => 'Columbus',
+      'administrative_area' => 'OH',
+      'postal_code' => '43201',
+    ],
+    'default_currency' => 'USD',
+    'billing_countries' => [
+      'USA',
+    ],
+  ]);
+  $store->save();
+
+  $store_storage = \Drupal::service('entity_type.manager')->getStorage('commerce_store');
+  $store_storage->markAsDefault($store);
+}
+
+/**
+ * Adds cheese amounts in ounces.
+ */
+function wt_create_size_attributes() {
+  ProductAttributeValue::create([
+    'attribute' => 'wt_cheese_amount',
+    'name' => '24',
+    'weight' => 3,
+  ])->save();
+  ProductAttributeValue::create([
+    'attribute' => 'wt_cheese_amount',
+    'name' => '16',
+    'weight' => 2,
+  ])->save();
+  ProductAttributeValue::create([
+    'attribute' => 'wt_cheese_amount',
+    'name' => '8',
+    'weight' => 1,
+  ])->save();
+}

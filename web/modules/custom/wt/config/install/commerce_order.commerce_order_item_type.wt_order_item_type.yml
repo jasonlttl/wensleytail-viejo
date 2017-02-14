@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Wensleytail Order Item Type'
+id: wt_order_item_type
+purchasableEntityType: commerce_product_variation
+orderType: wt_order_type
+traits: {  }

@@ -9,9 +9,10 @@ A cheese shoppe for dogs that's always out of stock.
 
 
 ```
-rm -rf Users
-rm -rf sites/default/files/config*
-rm -rf sites/default/settings.php
+sudo rm -rf Users
+sudo rm -rf sites/default/files/config*
+sudo rm -rf sites/default/settings.php
+sudo chmod 777 sites/default
 drush qd --use-existing --uri=http://localhost:8383 --profile=shop_base  --yes
 
 ```
