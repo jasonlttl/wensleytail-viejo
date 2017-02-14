@@ -34,7 +34,8 @@
         "drupal/default_content": "1.x-dev",
         "drupal/features": "~3.0",
         "drupal/swiftmailer": "1.x-dev",
-        "drupalcommerce/commerce_base": "dev-8.x-1.x"
+        "drupalcommerce/commerce_base": "dev-8.x-1.x",
+        "drupal/commerce_variation_add_to_cart": "1.x-dev"
     },
     "require-dev": {
         "behat/mink": "~1.7",

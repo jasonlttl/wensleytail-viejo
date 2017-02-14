@@ -7,7 +7,7 @@ dependencies:
     - field.field.commerce_product.wt_cheese_product_type.stores
     - field.field.commerce_product.wt_cheese_product_type.variations
   module:
-    - commerce_product
+    - commerce_variation_add_to_cart
     - text
 id: commerce_product.wt_cheese_product_type.default
 targetEntityType: commerce_product
@@ -21,11 +21,16 @@ content:
     settings: {  }
     third_party_settings: {  }
   variations:
-    type: commerce_add_to_cart
+    type: variation_add_to_cart
     weight: 10
     label: above
     settings:
-      combine: true
+      show_quantity: '1'
+      show_price: '1'
+      show_currency: '1'
+      price_format: '2'
+      attributes:
+        wt_cheese_amount: wt_cheese_amount
     third_party_settings: {  }
 hidden:
   created: true

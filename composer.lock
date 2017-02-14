@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "620986afe027e1c6478c699c26fff302",
-    "content-hash": "b1dc41d142d857f1bc0eacefc696f53c",
+    "hash": "790c60b4392b9cdc23aca7717afab0c4",
+    "content-hash": "80cf54abbd26d6d1b23d1533d7d0a32e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1165,11 +1165,17 @@
         },
         {
             "name": "drupal/address",
-            "version": "dev-1.x",
+            "version": "1.0.0-rc4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/address",
-                "reference": "aa0456a4bf6fac8719573b3d3e00d1a8f021462d"
+                "reference": "8.x-1.0-rc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/address-8.x-1.0-rc4.zip",
+                "reference": null,
+                "shasum": "541b020ce839dd9c75374e213c1131d9c1f6f52d"
             },
             "require": {
                 "commerceguys/addressing": "~1.0",
@@ -1183,8 +1189,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc4+0-dev",
-                    "datestamp": "1486736283"
+                    "version": "8.x-1.0-rc4",
+                    "datestamp": "1486736883"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1209,8 +1215,7 @@
             "homepage": "http://drupal.org/project/address",
             "support": {
                 "source": "http://cgit.drupalcode.org/address"
-            },
-            "time": "2017-02-10 14:14:54"
+            }
         },
         {
             "name": "drupal/commerce",
@@ -1218,7 +1223,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/commerce",
-                "reference": "3b47b1aa8fe961ebb20d58ee4d04e8fba8831a86"
+                "reference": "b9e55989ae678a34efd04118265760fadbd76962"
             },
             "require": {
                 "commerceguys/intl": "~0.7",
@@ -1249,8 +1254,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-beta5+31-dev",
-                    "datestamp": "1486740783"
+                    "version": "8.x-2.0-beta5+32-dev",
+                    "datestamp": "1486762083"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1280,7 +1285,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/commerce"
             },
-            "time": "2017-02-10 21:19:47"
+            "time": "2017-02-11 14:38:24"
         },
         {
             "name": "drupal/commerce_cart",
@@ -1517,6 +1522,57 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/commerce"
             }
+        },
+        {
+            "name": "drupal/commerce_variation_add_to_cart",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/commerce_variation_add_to_cart",
+                "reference": "1322bdbe12da206c4a99898884bc5088736806bf"
+            },
+            "require": {
+                "drupal/commerce": "*",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1482876783"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "aleksandar.boros.gyevi",
+                    "homepage": "https://www.drupal.org/user/316083"
+                },
+                {
+                    "name": "andor.koza",
+                    "homepage": "https://www.drupal.org/user/248666"
+                },
+                {
+                    "name": "bojan_m",
+                    "homepage": "https://www.drupal.org/user/2936613"
+                },
+                {
+                    "name": "gnikolovski",
+                    "homepage": "https://www.drupal.org/user/3451979"
+                }
+            ],
+            "description": "Commerce Variation Add to Cart Form for Drupal Commerce 2.x",
+            "homepage": "https://www.drupal.org/project/commerce_variation_add_to_cart",
+            "support": {
+                "source": "http://cgit.drupalcode.org/commerce_variation_add_to_cart"
+            },
+            "time": "2017-02-09 10:35:16"
         },
         {
             "name": "drupal/commerce_variation_cart_form",
@@ -1827,16 +1883,16 @@
         },
         {
             "name": "drupal/console-extend-plugin",
-            "version": "0.2.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/drupal-console-extend-plugin.git",
-                "reference": "3c6b873205c6e33f24b33807901d3287a4ff9a02"
+                "reference": "df2396782960335d18a8e5eb6ab630a37ca5f493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-extend-plugin/zipball/3c6b873205c6e33f24b33807901d3287a4ff9a02",
-                "reference": "3c6b873205c6e33f24b33807901d3287a4ff9a02",
+                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-extend-plugin/zipball/df2396782960335d18a8e5eb6ab630a37ca5f493",
+                "reference": "df2396782960335d18a8e5eb6ab630a37ca5f493",
                 "shasum": ""
             },
             "require": {
@@ -1864,7 +1920,7 @@
                 }
             ],
             "description": "Drupal Console Extend Plugin",
-            "time": "2017-02-09 17:09:50"
+            "time": "2017-02-14 08:38:49"
         },
         {
             "name": "drupal/core",
@@ -2049,7 +2105,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/default_content",
-                "reference": "11fa54825b611dc280dd0621b090c2b53dea0f29"
+                "reference": "e4e75b9fa7929568be23d3362ae31f39b769a9aa"
             },
             "require": {
                 "drupal/core": "*"
@@ -2060,8 +2116,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha3+3-dev",
-                    "datestamp": "1486594686"
+                    "version": "8.x-1.0-alpha3+4-dev",
+                    "datestamp": "1486595584"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2107,15 +2163,21 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/default_content"
             },
-            "time": "2017-02-08 23:10:49"
+            "time": "2017-02-13 00:51:20"
         },
         {
             "name": "drupal/entity",
-            "version": "dev-1.x",
+            "version": "1.0.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/entity",
-                "reference": "879356bbf75608f86d8fb89d76a21dc1e99a39ae"
+                "reference": "8.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity-8.x-1.0-alpha4.zip",
+                "reference": null,
+                "shasum": "c081d3757c159dfee74c9e5acb63bdee81c42e18"
             },
             "require": {
                 "drupal/core": "~8.1"
@@ -2126,8 +2188,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha3+11-dev",
-                    "datestamp": "1476267239"
+                    "version": "8.x-1.0-alpha4",
+                    "datestamp": "1481194983"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2160,8 +2222,7 @@
             "homepage": "http://drupal.org/project/entity",
             "support": {
                 "source": "http://cgit.drupalcode.org/entity"
-            },
-            "time": "2016-10-12 10:12:36"
+            }
         },
         {
             "name": "drupal/entity_reference_revisions",
@@ -3549,16 +3610,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.5",
+            "version": "v5.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "cd142238a339459b10da3d8234220963f392540c"
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/cd142238a339459b10da3d8234220963f392540c",
-                "reference": "cd142238a339459b10da3d8234220963f392540c",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
                 "shasum": ""
             },
             "require": {
@@ -3599,7 +3660,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-12-29 10:02:40"
+            "time": "2017-02-13 07:52:53"
         },
         {
             "name": "symfony-cmf/routing",
@@ -6978,7 +7039,8 @@
         "drupal/commerce": 20,
         "drupal/default_content": 20,
         "drupal/swiftmailer": 20,
-        "drupalcommerce/commerce_base": 20
+        "drupalcommerce/commerce_base": 20,
+        "drupal/commerce_variation_add_to_cart": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
