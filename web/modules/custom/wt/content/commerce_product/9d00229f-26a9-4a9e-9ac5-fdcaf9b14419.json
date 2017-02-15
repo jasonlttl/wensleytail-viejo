@@ -14,7 +14,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
             {
-                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice.png"
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1.png"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
@@ -78,7 +78,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice.png"
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -86,14 +86,13 @@
                 },
                 "uuid": [
                     {
-                        "value": "6372c569-60ee-4d82-880e-5934ebb248c0"
+                        "value": "41213a19-28b5-4854-8375-cfdc925966d1"
                     }
                 ],
-                "uri": [
-                    {
-                        "value": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice.png"
-                    }
-                ]
+                "alt": "cabot vintage choice 2lb brick",
+                "title": "",
+                "width": "500",
+                "height": "500"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
@@ -181,7 +180,7 @@
     ],
     "changed": [
         {
-            "value": "1487119158",
+            "value": "1487120688",
             "lang": "en"
         }
     ],

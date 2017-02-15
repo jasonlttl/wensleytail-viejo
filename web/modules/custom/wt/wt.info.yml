@@ -5,6 +5,7 @@ core: 8.x
 package: wt
 dependencies:
   - address
+  - better_normalizers
   - commerce
   - commerce_cart
   - commerce_checkout
