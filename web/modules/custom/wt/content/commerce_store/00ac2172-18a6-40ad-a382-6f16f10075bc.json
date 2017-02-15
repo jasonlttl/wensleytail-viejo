@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8383\/store\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_store\/online"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/commerce_store\/online\/uid": [
+            {
+                "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "store_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "00ac2172-18a6-40ad-a382-6f16f10075bc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "online"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/commerce_store\/online\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e66a72cb-c970-459a-a314-4317320d7273"
+                    }
+                ]
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Wensleytail's Cheese Shoppe",
+            "lang": "en"
+        }
+    ],
+    "mail": [
+        {
+            "value": "changethis@gmail.com"
+        }
+    ],
+    "default_currency": [
+        {
+            "target_id": "USD",
+            "lang": "en"
+        }
+    ],
+    "address": [
+        {
+            "langcode": null,
+            "country_code": "US",
+            "administrative_area": "OH",
+            "locality": "Columbus",
+            "dependent_locality": null,
+            "postal_code": "43201",
+            "sorting_code": null,
+            "address_line1": "105 Change This",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null
+        }
+    ],
+    "billing_countries": [
+        {
+            "value": "USA"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}

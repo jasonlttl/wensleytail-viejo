@@ -1,0 +1,142 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/uid": [
+            {
+                "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/product_id": [
+            {
+                "href": "http:\/\/localhost:8383\/product\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/attribute_wt_cheese_amount": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "variation_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c3b3c95d-575e-4ca6-95a8-26f77fe253aa"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "wt_cheese_variant_type"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e66a72cb-c970-459a-a314-4317320d7273"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/product_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/product\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/wt_cheese_product_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9d00229f-26a9-4a9e-9ac5-fdcaf9b14419"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/attribute_wt_cheese_amount": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/wt_cheese_amount"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e31a92ab-f117-43ed-9ac7-0002f6abf25b"
+                    }
+                ]
+            }
+        ]
+    },
+    "sku": [
+        {
+            "value": "cabot-vc-8"
+        }
+    ],
+    "title": [
+        {
+            "value": "Cabot Vintage Choice (8 oz)",
+            "lang": "en"
+        }
+    ],
+    "price": [
+        {
+            "number": "4.95",
+            "currency_code": "USD"
+        }
+    ],
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1487116948",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1487117020",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}

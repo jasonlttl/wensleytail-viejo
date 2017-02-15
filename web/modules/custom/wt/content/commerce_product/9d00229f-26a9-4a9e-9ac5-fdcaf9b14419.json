@@ -1,0 +1,174 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8383\/product\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/wt_cheese_product_type"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/uid": [
+            {
+                "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
+            {
+                "href": "http:\/\/localhost:8383\/store\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/variations": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "product_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9d00229f-26a9-4a9e-9ac5-fdcaf9b14419"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "wt_cheese_product_type"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e66a72cb-c970-459a-a314-4317320d7273"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/store\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_store\/online"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "00ac2172-18a6-40ad-a382-6f16f10075bc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/variations": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c3b3c95d-575e-4ca6-95a8-26f77fe253aa"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "39ed2ac5-6c30-4164-8c22-16577cf5753d"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6adcac6a-d03a-45dc-b587-1239b70706f5"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": [
+        {
+            "value": "Cabot Vintage Choice",
+            "lang": "en"
+        }
+    ],
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1487116884",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1487117020",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>If you love the crumbly texture and tangy-tart sharpness of our Lactose-Free Vintage Choice Cheddar, now you can be certain to never run out! Stock up with a 2-pound brick, the ideal size for enjoying a daily slice of deliciousness.<\/p>\r\n\r\n<p>This refined and exceptionally flavorful cheddar is aged a minimum of 24 months for all the mouth-watering goodness you can stand. Try it with fresh fruit or crumbled over a dish of dried meats for a layered taste experience.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}

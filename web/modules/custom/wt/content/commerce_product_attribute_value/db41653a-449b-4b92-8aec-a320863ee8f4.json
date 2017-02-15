@@ -1,0 +1,60 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/wt_cheese_amount"
+        }
+    },
+    "attribute_value_id": [
+        {
+            "value": "3"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "db41653a-449b-4b92-8aec-a320863ee8f4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "attribute": [
+        {
+            "target_id": "wt_cheese_amount"
+        }
+    ],
+    "name": [
+        {
+            "value": "24",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "3"
+        }
+    ],
+    "created": [
+        {
+            "value": "1487116554",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1487116554",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}
