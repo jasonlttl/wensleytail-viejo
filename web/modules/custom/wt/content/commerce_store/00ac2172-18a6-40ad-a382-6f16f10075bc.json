@@ -8,7 +8,7 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/commerce_store\/online\/uid": [
             {
-                "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json"
+                "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
             }
         ]
     },
@@ -38,7 +38,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json"
+                        "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"

@@ -19,6 +19,8 @@ dependencies:
   - default_content
   - entity
   - field
+  - file
+  - image
   - inline_entity_form
   - path
   - profile

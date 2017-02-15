@@ -4,10 +4,13 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.wt_cheese_product_type
     - field.field.commerce_product.wt_cheese_product_type.body
+    - field.field.commerce_product.wt_cheese_product_type.field_images
     - field.field.commerce_product.wt_cheese_product_type.stores
     - field.field.commerce_product.wt_cheese_product_type.variations
+    - image.style.thumbnail
   module:
     - commerce
+    - image
     - inline_entity_form
     - path
     - text
@@ -29,6 +32,13 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_images:
+    weight: 31
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
   path:
     type: path
     weight: 30

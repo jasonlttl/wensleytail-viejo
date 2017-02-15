@@ -8,8 +8,13 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/uid": [
             {
-                "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json",
+                "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json",
                 "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
+            {
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice.png"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
@@ -55,7 +60,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/user\/1?_format=hal_json"
+                        "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -67,6 +72,28 @@
                     }
                 ],
                 "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6372c569-60ee-4d82-880e-5934ebb248c0"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice.png"
+                    }
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
@@ -154,7 +181,7 @@
     ],
     "changed": [
         {
-            "value": "1487117020",
+            "value": "1487119158",
             "lang": "en"
         }
     ],

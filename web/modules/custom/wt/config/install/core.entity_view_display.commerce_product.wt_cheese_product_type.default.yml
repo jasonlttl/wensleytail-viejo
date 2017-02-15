@@ -4,10 +4,12 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.wt_cheese_product_type
     - field.field.commerce_product.wt_cheese_product_type.body
+    - field.field.commerce_product.wt_cheese_product_type.field_images
     - field.field.commerce_product.wt_cheese_product_type.stores
     - field.field.commerce_product.wt_cheese_product_type.variations
   module:
     - commerce_variation_add_to_cart
+    - image
     - text
 id: commerce_product.wt_cheese_product_type.default
 targetEntityType: commerce_product
@@ -17,12 +19,20 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: -4
+    weight: 1
     settings: {  }
     third_party_settings: {  }
+  field_images:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
   variations:
     type: variation_add_to_cart
-    weight: 10
+    weight: 2
     label: above
     settings:
       show_quantity: '1'
