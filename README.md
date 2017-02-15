@@ -28,6 +28,17 @@ find profiles/custom/shop_base/config/install/ -type f -exec sed -i '' -e '/^uui
 
 ```
 
+## Adding default content
+
+When issuing this command, note that...
+* the folder is relative to docroot
+* dce does not have a folder command
+* it will export the user (create with wt_default_content)
+
+```
+drush dcer commerce_product 1 --folder=modules/custom/wt/content
+```
+
 # Commerce 2.x project template
 
 [![Build Status](https://travis-ci.org/drupalcommerce/project-base.svg?branch=8.x)](https://travis-ci.org/drupalcommerce/project-base)
