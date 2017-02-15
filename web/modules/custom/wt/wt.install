@@ -10,8 +10,8 @@ use Drupal\commerce_product\Entity\ProductAttributeValue;
  * @see system_install()
  */
 function wt_install() {
-  wt_create_store();
-  wt_create_size_attributes();
+  //wt_create_store();
+  //wt_create_size_attributes();
 }
 
 /**
