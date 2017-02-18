@@ -4,6 +4,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.wt_cheese_product_type
     - field.field.commerce_product.wt_cheese_product_type.body
+    - field.field.commerce_product.wt_cheese_product_type.field_additives
     - field.field.commerce_product.wt_cheese_product_type.field_amazon_id
     - field.field.commerce_product.wt_cheese_product_type.field_images
     - field.field.commerce_product.wt_cheese_product_type.field_producer
@@ -34,6 +35,14 @@ content:
     weight: 5
     settings: {  }
     third_party_settings: {  }
+  field_additives:
+    weight: 10
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
   field_amazon_id:
     weight: 9
     settings:

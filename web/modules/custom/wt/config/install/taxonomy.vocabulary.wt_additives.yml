@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Additives
+vid: wt_additives
+description: 'boozy, fruity, herbtastic, meaty, nutty'
+hierarchy: 0
+weight: 0
