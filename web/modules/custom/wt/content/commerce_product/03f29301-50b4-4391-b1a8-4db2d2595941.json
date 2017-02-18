@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localhost:8383\/product\/1?_format=hal_json"
+            "href": "http:\/\/localhost:8383\/product\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/wt_cheese_product_type"
@@ -12,14 +12,22 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_additives": [
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/5?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/10?_format=hal_json"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
             {
-                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1_1.png"
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/71OCkgTGcPL._SL1500_.jpg"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
             {
-                "href": "http:\/\/localhost:8383\/taxonomy\/term\/1?_format=hal_json"
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/9?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
@@ -30,23 +38,17 @@
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/variations": [
             {
                 "href": ""
-            },
-            {
-                "href": ""
-            },
-            {
-                "href": ""
             }
         ]
     },
     "product_id": [
         {
-            "value": "1"
+            "value": "4"
         }
     ],
     "uuid": [
         {
-            "value": "9d00229f-26a9-4a9e-9ac5-fdcaf9b14419"
+            "value": "03f29301-50b4-4391-b1a8-4db2d2595941"
         }
     ],
     "langcode": [
@@ -79,11 +81,43 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_additives": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_additives"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d3c03c0e-59cd-4e9d-a31c-cafc1058deaa"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_additives"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9d532177-eab4-4c40-88fe-169e96ae17cd"
+                    }
+                ]
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1_1.png"
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/71OCkgTGcPL._SL1500_.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -91,20 +125,20 @@
                 },
                 "uuid": [
                     {
-                        "value": "41213a19-28b5-4854-8375-cfdc925966d1"
+                        "value": "2acad673-f1cd-44d7-a54e-f1ef31f36955"
                     }
                 ],
-                "alt": "cabot vintage choice 2lb brick",
+                "alt": "smoked bacon cheddar package",
                 "title": "",
-                "width": "500",
-                "height": "500"
+                "width": "1500",
+                "height": "535"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/1?_format=hal_json"
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/9?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_producer"
@@ -112,7 +146,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "55c822ec-4c04-46ce-9d6e-5605276f17cc"
+                        "value": "2e59199d-eb09-4940-a2ab-9d328f5a24fd"
                     }
                 ]
             }
@@ -146,37 +180,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c3b3c95d-575e-4ca6-95a8-26f77fe253aa"
-                    }
-                ]
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "39ed2ac5-6c30-4164-8c22-16577cf5753d"
-                    }
-                ]
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "6adcac6a-d03a-45dc-b587-1239b70706f5"
+                        "value": "bd151985-1702-4c4f-8d41-6018f32fc6a5"
                     }
                 ]
             }
@@ -184,7 +188,7 @@
     },
     "title": [
         {
-            "value": "Cabot Vintage Choice",
+            "value": "Hickory Farms Smoked Bacon & Cheddar Blend",
             "lang": "en"
         }
     ],
@@ -196,13 +200,13 @@
     ],
     "created": [
         {
-            "value": "1487116884",
+            "value": "1487433264",
             "lang": "en"
         }
     ],
     "changed": [
         {
-            "value": "1487431747",
+            "value": "1487433449",
             "lang": "en"
         }
     ],
@@ -212,16 +216,9 @@
             "lang": "en"
         }
     ],
-    "body": [
-        {
-            "value": "<p>If you love the crumbly texture and tangy-tart sharpness of our Lactose-Free Vintage Choice Cheddar, now you can be certain to never run out! Stock up with a 2-pound brick, the ideal size for enjoying a daily slice of deliciousness.<\/p>\r\n\r\n<p>This refined and exceptionally flavorful cheddar is aged a minimum of 24 months for all the mouth-watering goodness you can stand. Try it with fresh fruit or crumbled over a dish of dried meats for a layered taste experience.<\/p>\r\n",
-            "format": "basic_html",
-            "summary": ""
-        }
-    ],
     "field_amazon_id": [
         {
-            "value": "B0000D9MUM"
+            "value": "B00RKT3UU6"
         }
     ]
 }

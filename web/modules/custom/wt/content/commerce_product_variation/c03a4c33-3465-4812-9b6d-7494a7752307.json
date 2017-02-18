@@ -14,7 +14,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/product_id": [
             {
-                "href": "http:\/\/localhost:8383\/product\/1?_format=hal_json"
+                "href": "http:\/\/localhost:8383\/product\/2?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/attribute_wt_cheese_amount": [
@@ -25,12 +25,12 @@
     },
     "variation_id": [
         {
-            "value": "3"
+            "value": "4"
         }
     ],
     "uuid": [
         {
-            "value": "6adcac6a-d03a-45dc-b587-1239b70706f5"
+            "value": "c03a4c33-3465-4812-9b6d-7494a7752307"
         }
     ],
     "langcode": [
@@ -67,7 +67,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/product\/1?_format=hal_json"
+                        "href": "http:\/\/localhost:8383\/product\/2?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/wt_cheese_product_type"
@@ -75,7 +75,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "9d00229f-26a9-4a9e-9ac5-fdcaf9b14419"
+                        "value": "a7e016a5-8624-44bf-bf49-5e9822e478f9"
                     }
                 ]
             }
@@ -92,7 +92,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "db41653a-449b-4b92-8aec-a320863ee8f4"
+                        "value": "e31a92ab-f117-43ed-9ac7-0002f6abf25b"
                     }
                 ]
             }
@@ -100,18 +100,18 @@
     },
     "sku": [
         {
-            "value": "cabot-vc-24"
+            "value": "sartori-merlot-8"
         }
     ],
     "title": [
         {
-            "value": "Cabot Vintage Choice (24 oz)",
+            "value": "Sartori Merlot BellaVitano (8)",
             "lang": "en"
         }
     ],
     "price": [
         {
-            "number": "12.95",
+            "number": "7.95",
             "currency_code": "USD"
         }
     ],
@@ -123,13 +123,13 @@
     ],
     "created": [
         {
-            "value": "1487117017",
+            "value": "1487432023",
             "lang": "en"
         }
     ],
     "changed": [
         {
-            "value": "1487429872",
+            "value": "1487432125",
             "lang": "en"
         }
     ],

@@ -1,20 +1,20 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
+            "href": "http:\/\/localhost:8383\/taxonomy\/term\/4?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_additives"
         }
     },
-    "uid": [
+    "tid": [
         {
-            "value": "2"
+            "value": "4"
         }
     ],
     "uuid": [
         {
-            "value": "e66a72cb-c970-459a-a314-4317320d7273"
+            "value": "eafd212c-e6a9-4f0f-9f7b-2245ba127efb"
         }
     ],
     "langcode": [
@@ -23,19 +23,25 @@
             "lang": "en"
         }
     ],
-    "name": [
+    "vid": [
         {
-            "value": "wt_default_content"
+            "target_id": "wt_additives"
         }
     ],
-    "created": [
+    "name": [
         {
-            "value": "1487116554"
+            "value": "Herbtastic",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
         }
     ],
     "changed": [
         {
-            "value": "1487431760",
+            "value": "1487431216",
             "lang": "en"
         }
     ],
