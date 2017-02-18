@@ -1,7 +1,7 @@
-name: 'Wensleytail: Sample Shoppe'
+name: 'Wensleytail: Shoppe (Sample)'
 type: module
 description: 'Primary setup for Wensleytail Cheese Shoppe'
 core: 8.x
-package: wt
+package: wensleytail
 dependencies:
   - wt

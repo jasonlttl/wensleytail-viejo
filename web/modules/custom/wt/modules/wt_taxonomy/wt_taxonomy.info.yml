@@ -2,6 +2,6 @@ name: 'Wensleytail: Taxonomies'
 type: module
 description: 'Contains taxonomy configuration'
 core: 8.x
-package: wt
+package: wensleytail
 dependencies:
   - taxonomy

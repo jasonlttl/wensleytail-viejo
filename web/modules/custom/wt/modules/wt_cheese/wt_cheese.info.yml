@@ -1,8 +1,8 @@
-name: 'Wensleytail: Order'
+name: 'Wensleytail: Cheese'
 type: module
-description: 'Contains order setup'
+description: 'Contains cheese products'
 core: 8.x
-package: wt
+package: wensleytail
 dependencies:
   - wt_order
   - wt_taxonomy
