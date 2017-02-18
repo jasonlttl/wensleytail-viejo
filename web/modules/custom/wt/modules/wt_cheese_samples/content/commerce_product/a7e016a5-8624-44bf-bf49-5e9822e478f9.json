@@ -19,17 +19,12 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
             {
-                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/sartori.jpg"
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/sartori_0.jpg"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
             {
                 "href": "http:\/\/localhost:8383\/taxonomy\/term\/8?_format=hal_json"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
-            {
-                "href": "http:\/\/localhost:8383\/store\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/variations": [
@@ -102,7 +97,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/sartori.jpg"
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/sartori_0.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -132,23 +127,6 @@
                 "uuid": [
                     {
                         "value": "a887e6cc-47c5-4839-9128-cd0bb33dad17"
-                    }
-                ]
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/localhost:8383\/store\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_store\/online"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "00ac2172-18a6-40ad-a382-6f16f10075bc"
                     }
                 ]
             }
