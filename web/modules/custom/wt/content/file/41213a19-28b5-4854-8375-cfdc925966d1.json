@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1.png"
+            "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -53,7 +53,7 @@
     ],
     "uri": [
         {
-            "value": "public:\/\/img\/cheese\/2lb-vintage-choice_1.png"
+            "value": "public:\/\/img\/cheese\/2lb-vintage-choice_1_0_1.png"
         }
     ],
     "filemime": [

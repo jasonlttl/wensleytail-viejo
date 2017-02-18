@@ -26,4 +26,5 @@ dependencies:
   - path
   - profile
   - state_machine
+  - taxonomy
   - text

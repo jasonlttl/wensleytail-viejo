@@ -14,7 +14,12 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
             {
-                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1.png"
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
@@ -78,7 +83,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1.png"
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -93,6 +98,23 @@
                 "title": "",
                 "width": "500",
                 "height": "500"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_producer"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "55c822ec-4c04-46ce-9d6e-5605276f17cc"
+                    }
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/stores": [
@@ -180,7 +202,7 @@
     ],
     "changed": [
         {
-            "value": "1487120688",
+            "value": "1487122771",
             "lang": "en"
         }
     ],
