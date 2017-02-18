@@ -1,0 +1,7 @@
+name: 'Wensleytail: Order'
+type: module
+description: 'Contains order setup'
+core: 8.x
+package: wt
+dependencies:
+  - wt

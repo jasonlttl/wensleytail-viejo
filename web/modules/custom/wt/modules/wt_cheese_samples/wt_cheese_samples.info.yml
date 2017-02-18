@@ -1,0 +1,8 @@
+name: 'Wensleytail: Sample Cheeses'
+type: module
+description: 'Contains some sample products'
+core: 8.x
+package: wt
+dependencies:
+  - wt_cheese
+  - wt_taxonomy_samples

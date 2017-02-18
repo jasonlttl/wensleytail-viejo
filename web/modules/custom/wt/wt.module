@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains wt.module.
+ * Contains wt_cheese_samples.module.
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;

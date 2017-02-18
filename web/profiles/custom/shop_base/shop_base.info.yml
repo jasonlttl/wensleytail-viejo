@@ -62,6 +62,12 @@ dependencies:
 
   # Custom
   - wt
+  - wt_cheese
+  - wt_cheese_samples
+  - wt_order
+  - wt_store_sample
+  - wt_taxonomy
+  - wt_taxonomy_samples
 
   # Contrib
   - swiftmailer
