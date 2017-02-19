@@ -64,7 +64,7 @@ content:
       show_currency: '1'
       price_format: '2'
       attributes:
-        wt_cheese_amount: wt_cheese_amount
+        amount: amount
     third_party_settings: {  }
 hidden:
   created: true

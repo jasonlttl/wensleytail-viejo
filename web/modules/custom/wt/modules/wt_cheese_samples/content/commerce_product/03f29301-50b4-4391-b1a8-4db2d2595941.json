@@ -153,7 +153,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/cheese_variants"
                     }
                 },
                 "uuid": [

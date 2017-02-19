@@ -1,6 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-id: wt_cheese_amount
+id: amount
 label: Amount
 elementType: select

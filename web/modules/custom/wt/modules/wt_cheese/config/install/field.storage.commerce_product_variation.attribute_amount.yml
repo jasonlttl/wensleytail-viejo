@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - commerce_product
-id: commerce_product_variation.attribute_wt_cheese_amount
-field_name: attribute_wt_cheese_amount
+id: commerce_product_variation.attribute_amount
+field_name: attribute_amount
 entity_type: commerce_product_variation
 type: entity_reference
 settings:

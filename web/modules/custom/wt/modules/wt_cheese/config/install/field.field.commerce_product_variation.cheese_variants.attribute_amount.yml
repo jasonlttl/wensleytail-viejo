@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.amount
+    - commerce_product.commerce_product_variation_type.cheese_variants
+    - field.storage.commerce_product_variation.attribute_amount
+id: commerce_product_variation.cheese_variants.attribute_amount
+field_name: attribute_amount
+entity_type: commerce_product_variation
+bundle: cheese_variants
+label: Amount
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - amount
+field_type: entity_reference

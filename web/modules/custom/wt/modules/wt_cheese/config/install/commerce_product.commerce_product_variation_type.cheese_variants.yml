@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: wt_cheese_variant_type
+id: cheese_variants
 label: 'Cheese Variants'
 orderItemType: wt_order_item_type
 generateTitle: false

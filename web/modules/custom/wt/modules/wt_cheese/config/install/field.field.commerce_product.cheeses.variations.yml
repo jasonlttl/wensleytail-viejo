@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_type.cheeses
-    - commerce_product.commerce_product_variation_type.wt_cheese_variant_type
+    - commerce_product.commerce_product_variation_type.cheese_variants
     - field.storage.commerce_product.variations
 id: commerce_product.cheeses.variations
 field_name: variations
@@ -19,5 +19,5 @@ settings:
   handler: 'default:commerce_product_variation'
   handler_settings:
     target_bundles:
-      - wt_cheese_variant_type
+      - cheese_variants
 field_type: entity_reference

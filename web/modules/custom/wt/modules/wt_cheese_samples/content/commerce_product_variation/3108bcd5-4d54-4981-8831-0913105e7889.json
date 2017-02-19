@@ -4,20 +4,20 @@
             "href": ""
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/wt_cheese_variant_type"
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/cheese_variants"
         },
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/uid": [
             {
                 "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/product_id": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/product_id": [
             {
                 "href": "http:\/\/localhost:8383\/product\/2?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/attribute_wt_cheese_amount": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/attribute_amount": [
             {
                 "href": ""
             }
@@ -41,11 +41,11 @@
     ],
     "type": [
         {
-            "target_id": "wt_cheese_variant_type"
+            "target_id": "cheese_variants"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/uid": [
             {
                 "_links": {
                     "self": {
@@ -63,7 +63,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/product_id": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/product_id": [
             {
                 "_links": {
                     "self": {
@@ -80,14 +80,14 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/wt_cheese_variant_type\/attribute_wt_cheese_amount": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/attribute_amount": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/wt_cheese_amount"
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/amount"
                     }
                 },
                 "uuid": [

@@ -4,7 +4,7 @@
             "href": ""
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/wt_cheese_amount"
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/amount"
         }
     },
     "attribute_value_id": [
@@ -25,7 +25,7 @@
     ],
     "attribute": [
         {
-            "target_id": "wt_cheese_amount"
+            "target_id": "amount"
         }
     ],
     "name": [
