@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_type.wt_cheese_product_type
-    - field.storage.commerce_product.producer
-    - taxonomy.vocabulary.wt_producer
-id: commerce_product.wt_cheese_product_type.producer
-field_name: producer
+    - commerce_product.commerce_product_type.cheeses
+    - field.storage.commerce_product.additives
+    - taxonomy.vocabulary.wt_additives
+id: commerce_product.cheeses.additives
+field_name: additives
 entity_type: commerce_product
-bundle: wt_cheese_product_type
-label: Producer
+bundle: cheeses
+label: Additives
 description: ''
 required: false
 translatable: false
@@ -19,7 +19,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      wt_producer: wt_producer
+      wt_additives: wt_additives
     sort:
       field: _none
     auto_create: false

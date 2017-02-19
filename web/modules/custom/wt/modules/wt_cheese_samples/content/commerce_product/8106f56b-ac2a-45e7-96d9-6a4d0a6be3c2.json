@@ -4,30 +4,30 @@
             "href": "http:\/\/localhost:8383\/product\/3?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/wt_cheese_product_type"
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/cheeses"
         },
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/uid": [
             {
                 "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/additives": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/additives": [
             {
                 "href": "http:\/\/localhost:8383\/taxonomy\/term\/4?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/images": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/images": [
             {
                 "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/delfino_0_0_0.jpg"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/producer": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/producer": [
             {
                 "href": "http:\/\/localhost:8383\/taxonomy\/term\/7?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/variations": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/variations": [
             {
                 "href": ""
             }
@@ -51,11 +51,11 @@
     ],
     "type": [
         {
-            "target_id": "wt_cheese_product_type"
+            "target_id": "cheeses"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/uid": [
             {
                 "_links": {
                     "self": {
@@ -73,7 +73,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/additives": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/additives": [
             {
                 "_links": {
                     "self": {
@@ -90,7 +90,7 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/images": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/images": [
             {
                 "_links": {
                     "self": {
@@ -111,7 +111,7 @@
                 "height": "1275"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/producer": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/producer": [
             {
                 "_links": {
                     "self": {
@@ -128,7 +128,7 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/variations": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/variations": [
             {
                 "_links": {
                     "self": {

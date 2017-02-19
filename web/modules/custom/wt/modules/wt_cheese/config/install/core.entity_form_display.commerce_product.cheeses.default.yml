@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_type.wt_cheese_product_type
-    - field.field.commerce_product.wt_cheese_product_type.body
-    - field.field.commerce_product.wt_cheese_product_type.additives
-    - field.field.commerce_product.wt_cheese_product_type.amazon_id
-    - field.field.commerce_product.wt_cheese_product_type.images
-    - field.field.commerce_product.wt_cheese_product_type.producer
-    - field.field.commerce_product.wt_cheese_product_type.stores
-    - field.field.commerce_product.wt_cheese_product_type.variations
+    - commerce_product.commerce_product_type.cheeses
+    - field.field.commerce_product.cheeses.body
+    - field.field.commerce_product.cheeses.additives
+    - field.field.commerce_product.cheeses.amazon_id
+    - field.field.commerce_product.cheeses.images
+    - field.field.commerce_product.cheeses.producer
+    - field.field.commerce_product.cheeses.stores
+    - field.field.commerce_product.cheeses.variations
     - image.style.thumbnail
   module:
     - commerce
@@ -17,9 +17,9 @@ dependencies:
     - inline_entity_form
     - path
     - text
-id: commerce_product.wt_cheese_product_type.default
+id: commerce_product.cheeses.default
 targetEntityType: commerce_product
-bundle: wt_cheese_product_type
+bundle: cheeses
 mode: default
 content:
   body:

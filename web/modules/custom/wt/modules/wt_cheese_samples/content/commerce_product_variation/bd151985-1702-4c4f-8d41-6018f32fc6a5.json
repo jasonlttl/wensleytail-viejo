@@ -70,7 +70,7 @@
                         "href": "http:\/\/localhost:8383\/product\/4?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/wt_cheese_product_type"
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/cheeses"
                     }
                 },
                 "uuid": [

@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: wt_cheese_product_type
+id: cheeses
 label: Cheese
 description: ''
 variationType: wt_cheese_variant_type

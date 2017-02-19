@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_type.wt_cheese_product_type
+    - commerce_product.commerce_product_type.cheeses
     - commerce_product.commerce_product_variation_type.wt_cheese_variant_type
     - field.storage.commerce_product.variations
-id: commerce_product.wt_cheese_product_type.variations
+id: commerce_product.cheeses.variations
 field_name: variations
 entity_type: commerce_product
-bundle: wt_cheese_product_type
+bundle: cheeses
 label: Variations
 description: ''
 required: true
