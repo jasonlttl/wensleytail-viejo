@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/71OCkgTGcPL._SL1500__0.jpg"
+            "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/71OCkgTGcPL._SL1500__0_0.jpg"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -53,7 +53,7 @@
     ],
     "uri": [
         {
-            "value": "public:\/\/img\/cheese\/71OCkgTGcPL._SL1500__0.jpg"
+            "value": "public:\/\/img\/cheese\/71OCkgTGcPL._SL1500__0_0.jpg"
         }
     ],
     "filemime": [

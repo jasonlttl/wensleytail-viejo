@@ -6,3 +6,4 @@ package: wensleytail
 dependencies:
   - wt_cheese
   - wt_taxonomy_samples
+  - wt_store_sample
