@@ -12,17 +12,17 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_additives": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/additives": [
             {
                 "href": "http:\/\/localhost:8383\/taxonomy\/term\/4?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/images": [
             {
-                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/delfino_0_0.jpg"
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/delfino_0_0_0.jpg"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/producer": [
             {
                 "href": "http:\/\/localhost:8383\/taxonomy\/term\/7?_format=hal_json"
             }
@@ -73,7 +73,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_additives": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/additives": [
             {
                 "_links": {
                     "self": {
@@ -90,11 +90,11 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/images": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/delfino_0_0.jpg"
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/delfino_0_0_0.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -111,7 +111,7 @@
                 "height": "1275"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/producer": [
             {
                 "_links": {
                     "self": {
@@ -183,7 +183,7 @@
             "summary": ""
         }
     ],
-    "field_amazon_id": [
+    "amazon_id": [
         {
             "value": "B004SAZ3Q4"
         }

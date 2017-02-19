@@ -5,8 +5,8 @@ dependencies:
     - commerce_product
     - file
     - image
-id: commerce_product.field_images
-field_name: field_images
+id: commerce_product.images
+field_name: images
 entity_type: commerce_product
 type: image
 settings:

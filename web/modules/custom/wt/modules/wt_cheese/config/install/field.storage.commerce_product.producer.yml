@@ -4,15 +4,15 @@ dependencies:
   module:
     - commerce_product
     - taxonomy
-id: commerce_product.field_additives
-field_name: field_additives
+id: commerce_product.producer
+field_name: producer
 entity_type: commerce_product
 type: entity_reference
 settings:
   target_type: taxonomy_term
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

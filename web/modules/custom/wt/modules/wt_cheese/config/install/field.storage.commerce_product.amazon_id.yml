@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - commerce_product
-id: commerce_product.field_amazon_id
-field_name: field_amazon_id
+id: commerce_product.amazon_id
+field_name: amazon_id
 entity_type: commerce_product
 type: string
 settings:

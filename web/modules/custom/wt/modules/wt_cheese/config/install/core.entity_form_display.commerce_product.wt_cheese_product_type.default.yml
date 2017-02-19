@@ -4,10 +4,10 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.wt_cheese_product_type
     - field.field.commerce_product.wt_cheese_product_type.body
-    - field.field.commerce_product.wt_cheese_product_type.field_additives
-    - field.field.commerce_product.wt_cheese_product_type.field_amazon_id
-    - field.field.commerce_product.wt_cheese_product_type.field_images
-    - field.field.commerce_product.wt_cheese_product_type.field_producer
+    - field.field.commerce_product.wt_cheese_product_type.additives
+    - field.field.commerce_product.wt_cheese_product_type.amazon_id
+    - field.field.commerce_product.wt_cheese_product_type.images
+    - field.field.commerce_product.wt_cheese_product_type.producer
     - field.field.commerce_product.wt_cheese_product_type.stores
     - field.field.commerce_product.wt_cheese_product_type.variations
     - image.style.thumbnail
@@ -35,7 +35,7 @@ content:
     weight: 5
     settings: {  }
     third_party_settings: {  }
-  field_additives:
+  additives:
     weight: 10
     settings:
       match_operator: CONTAINS
@@ -43,21 +43,21 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
-  field_amazon_id:
+  amazon_id:
     weight: 9
     settings:
       size: 20
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-  field_images:
+  images:
     weight: 8
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-  field_producer:
+  producer:
     weight: 7
     settings: {  }
     third_party_settings: {  }

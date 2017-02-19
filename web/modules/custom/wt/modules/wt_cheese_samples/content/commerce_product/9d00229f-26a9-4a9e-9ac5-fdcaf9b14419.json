@@ -12,12 +12,12 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/images": [
             {
-                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1_1_0_0.png"
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1_1_0_0_0.png"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/producer": [
             {
                 "href": "http:\/\/localhost:8383\/taxonomy\/term\/1?_format=hal_json"
             }
@@ -74,11 +74,11 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_images": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/images": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1_1_0_0.png"
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/2lb-vintage-choice_1_0_1_1_0_0_0.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -95,7 +95,7 @@
                 "height": "500"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/field_producer": [
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/wt_cheese_product_type\/producer": [
             {
                 "_links": {
                     "self": {
@@ -197,7 +197,7 @@
             "summary": ""
         }
     ],
-    "field_amazon_id": [
+    "amazon_id": [
         {
             "value": "B0000D9MUM"
         }
