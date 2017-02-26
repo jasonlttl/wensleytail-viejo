@@ -1,0 +1,6 @@
+name: wt_alexa
+type: module
+core: 8.x
+dependencies:
+  - alexa
+  - alexa_demo

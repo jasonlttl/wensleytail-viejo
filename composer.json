@@ -29,6 +29,7 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.2.0",
+        "drupal/alexa": "1.x-dev",
         "drupal/console": "~1.0",
         "drupal/better_normalizers": "1.0-beta2",
         "drupal/commerce": "2.x-dev",

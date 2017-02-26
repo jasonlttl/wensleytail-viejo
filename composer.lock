@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d19677f906991bcd492782c76c021c86",
-    "content-hash": "cdcf3ddacd1283b0f2aef6cc40a7181f",
+    "hash": "b648e1f5f6db91f9b77e75509cfeeac5",
+    "content-hash": "0c5eee39c227babc6621b067cb01c756",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1218,6 +1218,54 @@
             }
         },
         {
+            "name": "drupal/alexa",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/alexa",
+                "reference": "c9266bed224eaa783d7f77a7332a33c8acfc8b20"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "jakubsuchy/amazon-alexa-php": "dev-master"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1474481639"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "hampercm",
+                    "homepage": "https://www.drupal.org/user/2439110"
+                },
+                {
+                    "name": "meba",
+                    "homepage": "https://www.drupal.org/user/31977"
+                }
+            ],
+            "description": "An endpoint to receive Amazon Alexa callbacks",
+            "homepage": "https://www.drupal.org/project/alexa",
+            "keywords": [
+                "Alexa",
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/alexa",
+                "issues": "http://drupal.org/project/issues/alexa"
+            },
+            "time": "2016-09-21 18:23:09"
+        },
+        {
             "name": "drupal/better_normalizers",
             "version": "1.0.0-beta2",
             "source": {
@@ -1278,7 +1326,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/commerce",
-                "reference": "b9e55989ae678a34efd04118265760fadbd76962"
+                "reference": "42796fc2ec96abb0a97819c99e74015ed29a85b5"
             },
             "require": {
                 "commerceguys/intl": "~0.7",
@@ -1309,8 +1357,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-beta5+32-dev",
-                    "datestamp": "1486762083"
+                    "version": "8.x-2.0-beta5+52-dev",
+                    "datestamp": "1487869383"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1340,7 +1388,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/commerce"
             },
-            "time": "2017-02-11 14:38:24"
+            "time": "2017-02-24 04:34:12"
         },
         {
             "name": "drupal/commerce_cart",
@@ -2340,17 +2388,17 @@
         },
         {
             "name": "drupal/features",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/features",
-                "reference": "8.x-3.2"
+                "reference": "8.x-3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/features-8.x-3.2.zip",
+                "url": "https://ftp.drupal.org/files/projects/features-8.x-3.3.zip",
                 "reference": null,
-                "shasum": "1fce32d01b812d2a613ffadb1b9395293364980e"
+                "shasum": "ae0248b3ad233edfc50970b9dfdd95fed71fecb9"
             },
             "require": {
                 "drupal/config_update": "*",
@@ -2362,8 +2410,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.2",
-                    "datestamp": "1481513884"
+                    "version": "8.x-3.3",
+                    "datestamp": "1487861884"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3351,16 +3399,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
+                "reference": "04a6d1a00ea5da0727ee94309a9f0d3dbaecb569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/04a6d1a00ea5da0727ee94309a9f0d3dbaecb569",
+                "reference": "04a6d1a00ea5da0727ee94309a9f0d3dbaecb569",
                 "shasum": ""
             },
             "require": {
@@ -3396,16 +3444,23 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
-            "description": "PSR-7 message implementation",
+            "description": "PSR-7 message implementation that also provides common utility methods",
             "keywords": [
                 "http",
                 "message",
+                "request",
+                "response",
                 "stream",
-                "uri"
+                "uri",
+                "url"
             ],
-            "time": "2016-06-24 23:00:38"
+            "time": "2017-02-21 01:20:32"
         },
         {
             "name": "html2text/html2text",
@@ -3572,6 +3627,53 @@
                 }
             ],
             "time": "2015-04-20 18:58:01"
+        },
+        {
+            "name": "jakubsuchy/amazon-alexa-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jakubsuchy/amazon-alexa-php.git",
+                "reference": "27abfadbb51586e8dcac372f981b49e9b973d0df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jakubsuchy/amazon-alexa-php/zipball/27abfadbb51586e8dcac372f981b49e9b973d0df",
+                "reference": "27abfadbb51586e8dcac372f981b49e9b973d0df",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Alexa\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathias Hansen",
+                    "email": "me@codemonkey.io"
+                },
+                {
+                    "name": "Emanuele Corradini",
+                    "email": "korra88@gmail.com"
+                },
+                {
+                    "name": "Jakub Suchy",
+                    "email": "info@jsuchy.cz"
+                }
+            ],
+            "description": "Amazon Alexa interface for PHP",
+            "time": "2016-09-22 13:00:23"
         },
         {
             "name": "masterminds/html5",
@@ -6727,25 +6829,30 @@
         },
         {
             "name": "phpunit/php-timer",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "38e9124049cf1a164f1e4537caf19c99bf1eb260"
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/38e9124049cf1a164f1e4537caf19c99bf1eb260",
-                "reference": "38e9124049cf1a164f1e4537caf19c99bf1eb260",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4|~5"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -6767,20 +6874,20 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2016-05-12 18:03:57"
+            "time": "2017-02-26 11:10:40"
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.9",
+            "version": "1.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "3b402f65a4cc90abf6e1104e388b896ce209631b"
+                "reference": "284fb0679dd25fb5ffb56dad92c72860c0a22f1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3b402f65a4cc90abf6e1104e388b896ce209631b",
-                "reference": "3b402f65a4cc90abf6e1104e388b896ce209631b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/284fb0679dd25fb5ffb56dad92c72860c0a22f1b",
+                "reference": "284fb0679dd25fb5ffb56dad92c72860c0a22f1b",
                 "shasum": ""
             },
             "require": {
@@ -6816,7 +6923,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2016-11-15 14:06:22"
+            "time": "2017-02-23 06:14:45"
         },
         {
             "name": "phpunit/phpunit",
@@ -7429,6 +7536,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/alexa": 20,
         "drupal/commerce": 20,
         "drupal/commerce_variation_add_to_cart": 20,
         "drupal/swiftmailer": 20,

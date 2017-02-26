@@ -62,6 +62,7 @@ dependencies:
 
   # Custom
   - wt
+  - wt_alexa
   - wt_cheese
   - wt_cheese_samples
   - wt_order
